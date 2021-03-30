@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body {
+    text-align: center;
+}
+
+h2{
+text-decoration: underline;
+text-align: center;
+}
+
+p{
+text-align: center;
+}
+
+.container{
+padding: 20px;
+width: 300px;
+margin: 0 auto;
+margin-top: 40px;
+background: #fcbdc7;
+border-radius: 5px;
+}
+
+form {
+display: inline-block;
+}
+
+input{
+padding: 4px 15px 4px 5px;
+}
+
+li{
+text-align: left;
+font-size: 20px;
+}
+
+#button{
+display: inline-block;
+background-color:#fcbdc7;
+color: black;
+border-radius: 5px;
+text-align:center;
+margin-top:2px;
+padding: 5px 15px;
+}
+
+#button:hover{
+cursor: pointer;
+opacity: .8;
+}
+
+ul {
+padding-left: 20px;
+}
+
+ul li {
+padding: 5px;
+color:black;
+}
+
+//ul li:nth-child(even){background: #dfdfdf;}
+
+.strike{
+text-decoration: line-through;
+}
+
+li:hover{
+  cursor: pointer;
+ }
+
+.delete {
+	display: none;
+}
+
+li > crossOutButton {
+	background: none;
+	border: none;
+	float: right;
+	color: white;
+  font-size: 16px;
+	font-weight: 800;
+} 
